@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // Setup server port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 
 var basepath = '/api';
 
